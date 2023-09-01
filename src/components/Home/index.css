@@ -1,0 +1,97 @@
+@media only screen and (min-width: 250px) {
+  .content_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+  }
+
+  .content_space_girl_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Estilos para la imagen */
+  .space_girl_image {
+    width: 100%; /* Ancho de la imagen */
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Ajuste de la altura para mantener la proporción */
+  }
+
+  .content_data_image {
+    position: absolute;
+    z-index: 5000;
+    color: azure;
+    left: 5px;
+    top: 80px;
+  }
+  .name {
+    background-color: transparent;
+    font-size: 1.5rem;
+    overflow: hidden;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    animation: typing 3s steps(20, end);
+  }
+
+  .lastName {
+    background-color: transparent;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    overflow: hidden;
+    animation: typing 3s steps(20, end) 2s forwards;
+    width: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la pantalla */
+  }
+
+  .content_space_girl_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%; /* Ancho máximo del contenedor */
+    box-sizing: border-box; /* Considerar el espacio interno en el ancho total */
+  }
+
+  /* Estilos para la imagen */
+  .space_girl_image {
+    width: 100%; /* Ancho de la imagen */
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Ajuste de la altura para mantener la proporción */
+  }
+
+  .content_data_image {
+    position: absolute;
+    z-index: 5000;
+    color: azure;
+    left: 35px;
+    top: 120px;
+  }
+  .name {
+    background-color: transparent;
+    font-size: 2.2rem;
+    overflow: hidden;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    animation: typing 3s steps(20, end);
+  }
+
+  .lastName {
+    background-color: transparent;
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    overflow: hidden;
+    animation: typing 3s steps(20, end) 2s forwards;
+    width: 0;
+  }
+}

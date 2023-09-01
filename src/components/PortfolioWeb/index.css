@@ -1,0 +1,26 @@
+@media (min-width: 481px) and (min-width: 992px) {
+  .content_name_landing {
+    max-width: 100vw;
+  }
+
+  .name_landing {
+    color: #e50914;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-family: "Bebas Neue", cursive;
+    background: rgb(36, 36, 36);
+  }
+}
+@media (min-width: 250px) and (max-width: 480px) {
+  .content_name_landing {
+    max-width: 100vw;
+  }
+
+  .name_landing {
+    color: #e50914;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-family: "Bebas Neue", cursive;
+    background: rgb(36, 36, 36);
+  }
+}
