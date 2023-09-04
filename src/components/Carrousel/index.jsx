@@ -34,8 +34,38 @@ export const Carrousel = () => {
       image: rickAndMorty,
       link: "https://rick-morty-api-beta.vercel.app/",
     },
+    { image: youreOwnRhytm, link: "https://your-own-rythm.vercel.app/" },
+    { image: movieNight, link: "https://api-movies-e8be.vercel.app/" },
+    {
+      image: propertiesAndYou,
+      link: "https://proyecto-final-frontend-lyart.vercel.app/",
+    },
+    {
+      image: chiao,
+      link: "https://chanticou.github.io/Ciao-pastas-restaurant/",
+    },
+    {
+      image: ToDo,
+      link: "   https://to-do-list-react-navy.vercel.app/",
+    },
+    {
+      image: rickAndMorty,
+      link: "https://rick-morty-api-beta.vercel.app/",
+    },
   ];
   const oldestImages = [
+    {
+      image: piedraPapelTijera,
+      link: "https://chanticou.github.io/Piedra-papel-o-tijera/ ",
+    },
+    { image: spaceX, link: "https://chanticou.github.io/SpaceX-reply/ " },
+    { image: planets, link: " https://chanticou.github.io/Planetas/" },
+
+    {
+      image: todo,
+      link: "https://chanticou.github.io/Lista-pendientes/ ",
+    },
+    { image: bento, link: "https://api-food-five.vercel.app/" },
     {
       image: piedraPapelTijera,
       link: "https://chanticou.github.io/Piedra-papel-o-tijera/ ",
