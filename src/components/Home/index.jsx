@@ -1,8 +1,11 @@
-import { NavBar } from "../NavBar/index.jsx";
+import { Player } from "../Player/index.jsx";
 // import { SwiperComponent } from "../SwiperComponent/SwiperComponent";
+
+import { NavBar } from "../NavBar/index.jsx";
+import { Carrousel } from "../Carrousel/index.jsx";
 import youreName from "../../assets/youreName.jpg";
-// import Player from "../Player/Player";
 import music from "../../assets/rain-lofi.mp3";
+import Typed from "react-typed";
 import "./index.css";
 
 export const Home = () => {
@@ -16,17 +19,27 @@ export const Home = () => {
           </div>
 
           <div className="content_data_image">
-            <p className="p">¡Hola! Soy</p>
-            <span className="name">Chantal</span>
-            <span className="lastName">Coutenceau.</span>
+            <Typed
+              strings={[
+                "<span class='greeting'>¡Hola!</span>",
+                "<span class='name'>Soy Chantal Coutenceau</span>",
+                "<span class='job'>Desarrolladora Full-stack</span>",
+              ]}
+              typeSpeed={150}
+              loop
+            ></Typed>
 
-            <p className="p">Desarrolladora Full-stack</p>
-            {/* <Player url={music} /> */}
+            <p className="p"></p>
           </div>
+          <Player url={music} />
           <div className="gradient_image"></div>
         </div>
-        {/* <SwiperComponent /> */}
+        <Carrousel />
       </div>
     </>
   );
 };
+
+// <p className="p"> </p>
+// <span className="name"></span>
+// <span className="lastName">.</span>

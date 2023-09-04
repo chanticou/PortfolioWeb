@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     min-height: 80vh;
+    padding: 0 0 200px 0;
+    background-color: #212325;
   }
 
   .content_space_girl_image {
@@ -26,24 +28,29 @@
     z-index: 5000;
     color: azure;
     left: 5px;
-    top: 80px;
+    top: 75px;
   }
   .name {
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 2rem;
     overflow: hidden;
     letter-spacing: 0.2rem;
     line-height: 1;
-    animation: typing 3s steps(20, end);
+  }
+  .greeting {
+    background-color: transparent;
+    font-size: 2rem;
+    overflow: hidden;
+    letter-spacing: 0.2rem;
+    line-height: 1;
   }
 
-  .lastName {
+  .job {
     background-color: transparent;
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
+    font-size: 2rem;
     overflow: hidden;
-    animation: typing 3s steps(20, end) 2s forwards;
-    width: 0;
+    letter-spacing: 0.2rem;
+    line-height: 1;
   }
 }
 
@@ -74,24 +81,29 @@
     position: absolute;
     z-index: 5000;
     color: azure;
-    left: 35px;
-    top: 120px;
+    left: 58px;
+    top: 260px;
   }
   .name {
     background-color: transparent;
-    font-size: 2.2rem;
+    font-size: 2rem;
     overflow: hidden;
     letter-spacing: 0.2rem;
     line-height: 1;
-    animation: typing 3s steps(20, end);
+  }
+  .greeting {
+    background-color: transparent;
+    font-size: 2rem;
+    overflow: hidden;
+    letter-spacing: 0.2rem;
+    line-height: 1;
   }
 
-  .lastName {
+  .job {
     background-color: transparent;
-    font-size: 2.2rem;
-    letter-spacing: 0.2rem;
+    font-size: 2rem;
     overflow: hidden;
-    animation: typing 3s steps(20, end) 2s forwards;
-    width: 0;
+    letter-spacing: 0.2rem;
+    line-height: 1;
   }
 }
