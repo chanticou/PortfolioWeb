@@ -83,7 +83,7 @@ export const Carrousel = () => {
 
   return (
     <>
-      <h1>Oldest</h1>
+      <h1 className="movie-container_title">Newest</h1>
       <div className="conten-carrousel">
         <button
           className="prev-button"
@@ -125,7 +125,7 @@ export const Carrousel = () => {
         </button>
       </div>
 
-      <h1>Newest</h1>
+      <h1 className="movie-container_title">Oldest</h1>
       <div className="conten-carrousel">
         <button
           className="prev-button"
