@@ -5,7 +5,7 @@ import { NavBar } from "../NavBar/index.jsx";
 import { Carrousel } from "../Carrousel/index.jsx";
 import youreName from "../../assets/youreName.jpg";
 import music from "../../assets/rain-lofi.mp3";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import "./index.css";
 
 export const Home = () => {
@@ -19,7 +19,7 @@ export const Home = () => {
           </div>
 
           <div className="content_data_image">
-            <Typed
+            {/* <Typed
               strings={[
                 "<span class='greeting'>¡Hola!</span>",
                 "<span class='name'>Soy Chantal Coutenceau</span>",
@@ -27,7 +27,7 @@ export const Home = () => {
               ]}
               typeSpeed={150}
               loop
-            ></Typed>
+            ></Typed> */}
 
             <p className="p"></p>
           </div>
