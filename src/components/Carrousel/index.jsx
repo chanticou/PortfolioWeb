@@ -64,6 +64,7 @@ export const Carrousel = () => {
         >
           &#8592; {/* Flecha izquierda */}
         </button>
+
         <div className="content-image">
           {images.map((el, index) => {
             return (
