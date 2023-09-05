@@ -12,7 +12,7 @@ export const NavBar = () => {
     <>
       <Navbar bg="dark" expand="lg" variant="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/Home">
+          <Navbar.Brand as={Link} to="/">
             <PortfolioWeb />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,9 +30,9 @@ export const NavBar = () => {
               <Nav.Link as={Link} to="/">
                 Perfil
               </Nav.Link>
-              <Nav.Link as={Link} to="/">
+              {/* <Nav.Link as={Link} to="/">
                 landing
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
