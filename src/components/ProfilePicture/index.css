@@ -1,0 +1,30 @@
+.content-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image_profile {
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 10vw;
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 84px;
+  min-width: 84px;
+  position: relative;
+  text-decoration: none;
+  width: 10vw;
+  background-size: cover;
+  transform: translateZ(0);
+  transition: transform 0.4s ease;
+}
+
+.image_profile:hover {
+  transform: perspective(1000px) translateZ(5px);
+  box-shadow: 0 0 3px #fff;
+  /* border: 0.1em solid white; */
+  border-radius: 4px;
+}
