@@ -2,8 +2,8 @@
   .content_button_music {
     display: flex;
     position: absolute;
-    top: 55%;
-    left: 9%;
+    /* top: 55%; */
+    /* left: 9%; */
     padding: 10px 25px;
     z-index: 2;
     transform: translate(-50%, -50%);
@@ -15,7 +15,7 @@
     background-color: #fff;
     cursor: pointer;
     color: black;
-    top: -181px;
+    top: 108px;
     left: 4px;
     font-weight: bold;
     font-size: 1rem;

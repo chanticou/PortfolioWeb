@@ -22,15 +22,6 @@ export const Home = () => {
             <span className="greeting">¡Hola!</span>
             <span className="name">Soy Chantal Coutenceau </span>
             <span className="job">Desarrolladora Full-stack</span>
-            {/* <Typed
-              strings={[
-                "<span class='greeting'>¡Hola!</span>",
-                "<span class='name'>Soy Chantal Coutenceau</span>",
-                "<span class='job'>Desarrolladora Full-stack</span>",
-              ]}
-              typeSpeed={150}
-              loop
-            ></Typed> */}
           </div>
           <Player url={music} />
           <div className="gradient_image"></div>
@@ -44,3 +35,15 @@ export const Home = () => {
 // <p className="p"> </p>
 // <span className="name"></span>
 // <span className="lastName">.</span>
+
+{
+  /* <Typed
+              strings={[
+                "<span class='greeting'>¡Hola!</span>",
+                "<span class='name'>Soy Chantal Coutenceau</span>",
+                "<span class='job'>Desarrolladora Full-stack</span>",
+              ]}
+              typeSpeed={150}
+              loop
+            ></Typed> */
+}

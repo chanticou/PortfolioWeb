@@ -16,3 +16,16 @@
     flex-direction: column; /* Alinear verticalmente los elementos en pantallas pequeñas */
   }
 }
+/* Aumenta el z-index del botón del menú hamburguesa en modo responsive */
+@media (max-width: 991.98px) {
+  .navbar-toggler-icon {
+    z-index: 9999; /* Ajusta el valor según tus necesidades */
+  }
+}
+
+/* Aumenta el z-index del menú en modo responsive */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    z-index: 9999; /* Ajusta el valor según tus necesidades */
+  }
+}
