@@ -86,7 +86,7 @@ export const Carrousel = () => {
       <h1 className="movie-container_title">Newest</h1>
       <div className="conten-carrousel">
         <button
-          className="prev-button"
+          className="prev-button_1"
           onClick={() => {
             const container = document.querySelector(".content-image");
             container.scrollLeft -= container.offsetWidth;
@@ -115,7 +115,7 @@ export const Carrousel = () => {
           })}
         </div>
         <button
-          className="next-button"
+          className="next-button_1"
           onClick={() => {
             const container = document.querySelector(".content-image");
             container.scrollLeft += container.offsetWidth;
@@ -128,7 +128,7 @@ export const Carrousel = () => {
       <h1 className="movie-container_title">Oldest</h1>
       <div className="conten-carrousel">
         <button
-          className="prev-button"
+          className="prev-button_2"
           onClick={() => {
             const container = document.querySelector(".content-image_2");
             container.scrollLeft -= container.offsetWidth;
@@ -153,7 +153,7 @@ export const Carrousel = () => {
           })}
         </div>
         <button
-          className="next-button"
+          className="next-button_2"
           onClick={() => {
             const container_2 = document.querySelector(".content-image_2");
             container_2.scrollLeft += container_2.offsetWidth;

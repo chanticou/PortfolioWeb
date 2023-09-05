@@ -41,12 +41,11 @@
   color: white; /* Cambia el color del texto a blanco */
 }
 
-.prev-button {
+.prev-button_1 {
   border: none;
   background: rgb(0, 0, 0, 0.3);
   font-size: 40px;
   height: 24%;
-  top: calc(50%-25%);
   width: 50px;
   color: #fff;
   cursor: pointer;
@@ -57,14 +56,42 @@
   left: 0;
 }
 
-.next-button {
+.next-button_1 {
   border: none;
   position: absolute;
   right: 0;
   background: rgb(0, 0, 0, 0.3);
   font-size: 40px;
   height: 24%;
-  top: calc(50%-25%);
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+  padding: 45px 0px;
+}
+.prev-button_2 {
+  border: none;
+  background: rgb(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 24%;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: 0.2s ease all;
+  padding: 45px 0px;
+  position: absolute;
+  left: 0;
+}
+
+.next-button_2 {
+  border: none;
+  position: absolute;
+  right: 0;
+  background: rgb(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 24%;
   width: 50px;
   color: #fff;
   cursor: pointer;
