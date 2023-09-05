@@ -20,7 +20,7 @@ export const Home = () => {
 
           <div className="content_data_image">
             <span className="greeting">¡Hola!</span>
-            <span className="name">Soy Chantal Coutenceau</span>
+            <span className="name">Soy Chantal Coutenceau </span>
             <span className="job">Desarrolladora Full-stack</span>
             {/* <Typed
               strings={[

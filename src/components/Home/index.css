@@ -29,17 +29,18 @@
     color: azure;
     left: 5px;
     top: 75px;
+    font-size: 1rem;
   }
   .name {
     background-color: transparent;
-    font-size: 2rem;
+    font-size: 1rem;
     overflow: hidden;
     letter-spacing: 0.2rem;
     line-height: 1;
   }
   .greeting {
     background-color: transparent;
-    font-size: 2rem;
+    font-size: 1rem;
     overflow: hidden;
     letter-spacing: 0.2rem;
     line-height: 1;
@@ -47,7 +48,7 @@
 
   .job {
     background-color: transparent;
-    font-size: 2rem;
+    font-size: 1rem;
     overflow: hidden;
     letter-spacing: 0.2rem;
     line-height: 1;
