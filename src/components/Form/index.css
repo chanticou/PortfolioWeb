@@ -161,7 +161,7 @@
   .content_name_email {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     gap: 0 20px;
   }
@@ -184,7 +184,6 @@
 
   .contact-me {
     color: #e50914;
-    letter-spacing: 30px;
     font-size: 2rem;
     margin: auto;
     font-family: "Bebas Neue", cursive;

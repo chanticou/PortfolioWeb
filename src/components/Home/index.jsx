@@ -4,7 +4,7 @@ import { Player } from "../Player/index.jsx";
 import { NavBar } from "../NavBar/index.jsx";
 import { Carrousel } from "../Carrousel/index.jsx";
 import youreName from "../../assets/youreName.jpg";
-import music from "../../assets/rain-lofi.mp3";
+// import music from "../../assets/rain-lofi.mp3";
 // import Typed from "react-typed";
 import "./index.css";
 
@@ -23,7 +23,7 @@ export const Home = () => {
             <span className="name">Soy Chantal Coutenceau </span>
             <span className="job">Desarrolladora Full-stack</span>
           </div>
-          <Player url={music} />
+
           <div className="gradient_image"></div>
         </div>
         <Carrousel />

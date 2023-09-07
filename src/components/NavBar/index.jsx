@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Player } from "../Player/index.jsx";
+import music from "../../assets/rain-lofi.mp3";
+
 import "./index.css";
 
 export const NavBar = () => {
@@ -30,9 +32,9 @@ export const NavBar = () => {
               <Nav.Link as={Link} to="/">
                 Perfil
               </Nav.Link>
-              {/* <Nav.Link as={Link} to="/">
-                landing
-              </Nav.Link> */}
+              <div>
+                <Player url={music} />
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>

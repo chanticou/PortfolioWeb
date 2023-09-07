@@ -15,8 +15,8 @@
     background-color: #fff;
     cursor: pointer;
     color: black;
-    top: 150px;
-    left: -128px;
+    /* top: 150px;
+    left: -128px; */
     font-weight: bold;
     font-size: 1rem;
     border-color: #fff;
@@ -31,12 +31,12 @@
 @media only screen and (min-width: 768px) {
   .content_button_music {
     display: flex;
-    position: absolute;
-    top: 60%;
-    left: 9%;
+    /* position: absolute; */
+    /* top: 60%; */
+    /* left: 9%; */
     padding: 10px 25px;
     z-index: 2;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     background-color: transparent;
   }
 
@@ -45,8 +45,8 @@
     background-color: #fff;
     cursor: pointer;
     color: black;
-    top: 49px;
-    left: -19px;
+    /* top: 49px;
+    left: -19px; */
     font-weight: bold;
     font-size: 1rem;
     border-color: #fff;

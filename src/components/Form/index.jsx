@@ -5,7 +5,11 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import { NavBar } from "../NavBar/index.jsx";
 
+import { useSelector } from "react-redux";
+
 export const Form = () => {
+  const play = useSelector((state) => state.play);
+
   const form = useRef();
   const [input, setInput] = useState({
     user_name: "",
