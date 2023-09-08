@@ -11,17 +11,16 @@
   }
 
   .button_music {
-    padding: 5px 30px;
-    background-color: #fff;
+    padding: 7px 32px;
+    background-color: transparent;
     cursor: pointer;
-    color: black;
-    /* top: 150px;
-    left: -128px; */
+    color: white;
     font-weight: bold;
     font-size: 1rem;
     border-color: #fff;
     border-radius: 5px;
-    position: absolute;
+    margin-left: 83px;
+    margin-top: 101px;
   }
   .button_music:hover {
     opacity: 0.8;
@@ -30,7 +29,7 @@
 
 @media only screen and (min-width: 768px) {
   .content_button_music {
-    display: flex;
+    /* display: flex; */
     /* position: absolute; */
     /* top: 60%; */
     /* left: 9%; */
@@ -41,17 +40,16 @@
   }
 
   .button_music {
-    padding: 10px 50px;
-    background-color: #fff;
+    padding: 7px 32px;
+    background-color: transparent;
     cursor: pointer;
-    color: black;
-    /* top: 49px;
-    left: -19px; */
+    color: white;
     font-weight: bold;
     font-size: 1rem;
     border-color: #fff;
     border-radius: 5px;
-    position: absolute;
+    margin-left: -250px;
+    margin-top: 0px;
   }
   .button_music:hover {
     opacity: 0.8;

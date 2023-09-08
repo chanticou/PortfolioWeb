@@ -32,10 +32,10 @@ export const NavBar = () => {
               <Nav.Link as={Link} to="/">
                 Perfil
               </Nav.Link>
-              <div>
-                <Player url={music} />
-              </div>
             </Nav>
+            <div className="">
+              <Player url={music} />
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
