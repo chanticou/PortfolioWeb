@@ -26,7 +26,7 @@ export const Yo = () => {
           <p>
             Hola!👋, mi nombre es Chantal, y soy oriunda de Buenos Aires,
             Argentina. Soy Fullstack Web Developer, terminé mi cursada en el
-            Bootcamp de SoyHenry, en el cual emprendí el cargo de Teachig
+            Bootcamp de SoyHenry, en el cual emprendí el cargo de Teaching
             Assistant. Mi interes en el mundo tecnológico empezó hace dos años,
             donde emprendí la hermosa aventura de la programación. Empecé con un
             curso de introducción en la UTN y seguí estudiando la carrera de
